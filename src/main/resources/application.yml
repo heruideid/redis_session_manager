@@ -1,0 +1,9 @@
+spring:
+  redis:
+    cluster:
+      nodes: 
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+server:
+  port: 8080
